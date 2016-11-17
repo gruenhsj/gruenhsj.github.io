@@ -1,0 +1,45 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+   background:url(bg-pattern.png),#7b4397;
+   background:url(bg-pattern.png),-webkit-linear-gradient(to left,#7b4397,#fcbd20);
+   background:url(bg-pattern.png),linear-gradient(to left,#7b4397, #fdcc52);
+   color:#fff
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#ImgContainer>img {
+    width: 100%;
+    height: auto;
+}
+
+.signin {
+  max-width: 330px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+
+.form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.checkbox {
+  font-weight: normal;
+  padding: 1px;
+}
+
+.btn {
+  margin-bottom: 5px;
+}
