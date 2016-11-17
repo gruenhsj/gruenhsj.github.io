@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Lora:700|Muli');
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Muli', sans-serif;
+  background-color: #fdcc52;
+}
+
+
+
+.header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #777999;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+}
+
+li {
+    float: right;
+    text-align: right;
+    border-right: 1px solid #777999;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 740px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron {
+  background-image: url("honey-bee.jpg");
+  color:white;
+  text-align: center;
+  border-bottom: 1px solid #777999;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 23px;
+}
+
+.paragraphs {
+  margin: 40px 0;
+}
+.paragraphs + h4 {
+  margin-top: 28px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex-gutter {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#ImgContainer {
+    padding: 0 80px;
+}
+
+#ImgContainer>img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #777999;
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .header {
+    margin-bottom: 10px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
